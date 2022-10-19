@@ -64,6 +64,39 @@
 
     }
 
+    .imgBox{
+        width:100%; height:380; background-color:blue; margin-bottom:20px;
+    }
+    .explainBox{
+        width:100%; height:300; background-color:red;
+    }
+
+    #imgTxtContBox1{
+        width:100%; height:700;
+    }
+    #imgTxtContBox2{
+        width:100%; height:700;
+    }
+
+    #albumContainer{
+        padding-top:0px;
+        margin-top:0xp;
+    }
+
+    #mySelfie{
+
+        border-radius:10%;
+        border:10px solid rgba(0 , 80 , 80 ,var(--element-bgMax));
+
+    }
+
+    #mySelfIntroduce{
+
+        border-radius:5%;
+        border:10px solid rgba(0 , 80 , 80,var(--element-bgMax));
+
+    }
+
 </style>
 
 <body>
@@ -76,38 +109,84 @@
 
                 <div class="row">
 
-                    <div class="col-md-3 text-bg-light p-3 mb-5 me-5" style="height:255; ">  </div>
+                    <div id="mySelfie" class="col-md-3 text-bg-light p-3 me-5" style="height:220;"> 
                     
-                    <div class="col-md-8 text-bg-light p-3 mb-5" style="height:255;">  </div>
-
+                        <img src=""/>
+                        
+                    </div>
+                    <!--mySelfie 끝-->
+                    <div id="mySelfIntroduce" class="col-md-8 text-bg-light p-3 " style="height:220;">  </div>
+                    <!--mySelfIntroduce 끝-->
                 </div>
                 <!--row 끝-->
             </div>
             <!-- header class container 끝-->
 
-            <div id="contentsContainer" class="container">
 
-                <div class="row mb-5" >
+            <div id="albumContainer" class="album">
+                <div id="contentsContainer" class="container">
 
-                    <div class="col-md-3 text-bg-light me-5 ms-5" style="height:400;">  </div>
-                    <div class="col-md-3 text-bg-light me-5 ms-5" style="height:400;">  </div>
-                    <div class="col-md-3 text-bg-light me-5 ms-5" style="height:400;">  </div>
+                    <div id="eachRowDiv" class="row row-cols-1 row-cols-sm-1 row-cols-md-2 mb-1" >
+
+                        <div id="cols" class="text-bg-light">
+                            
+                            <div id="imgTxtContBox1" class="card shadow-sm mb-5">
+
+                                <div class="imgBox"></div>
+
+                                <div class="explainBox"></div>
+
+                            </div>
+                            <!--imgTxtContBox1 끝-->
+                            <div id="imgTxtContBox2" class="card shadow-sm mb-3">
+
+                                <div class="imgBox"></div>
+
+                                <div class="explainBox"></div>
+
+                            </div>
+                            <!--imgTxtContBox2 끝-->
+                        </div>
+                        <!-- cols 끝  -->
+
+
+                        <div id="cols" class="text-bg-light">
+                            
+                            <div id="imgTxtContBox1" class="card shadow-sm mb-5">
+
+                                <div class="imgBox"></div>
+
+                                <div class="explainBox"></div>
+
+                            </div>
+                            <!--imgTxtContBox1 끝-->
+                            <div id="imgTxtContBox2" class="card shadow-sm mb-3">
+
+                                <div class="imgBox"></div>
+
+                                <div class="explainBox"></div>
+
+                            </div>
+                            <!--imgTxtContBox2 끝-->
+                        </div>
+                        <!-- cols 끝  -->
+                        
+                    </div>
+                    <!--eachRowDiv class row 끝-->
+
+                    <div class="row" >
+
+
+                        
+                    </div>
+                    <!--class row 끝-->
+
                     
                 </div>
-                <!--class row 끝-->
+                <!-- contentsContainer class container 끝 -->
 
-                <div class="row mb-5" >
-
-                    <div class="col-md-3 text-bg-light me-5 ms-5" style="height:400;">  </div>
-                    <div class="col-md-3 text-bg-light me-5 ms-5" style="height:400;">  </div>
-                    <div class="col-md-3 text-bg-light me-5 ms-5" style="height:400;">  </div>
-                    
-                </div>
-                <!--class row 끝-->
-
-                
             </div>
-            <!-- contentsContainer class container 끝 -->
+            <!-- albumContainer album py-5 bg-light 끝 -->
         </div>
         <!-- container_bg 끝 -->
 

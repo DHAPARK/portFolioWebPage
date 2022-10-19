@@ -11,15 +11,12 @@ const config = require("./config/config");
 app.use(bodyParser.urlencoded({ extended: false }));
 
 //
-
 app.use("/", router);
 
 const urlRouter = require("./router/url");
 
 urlRouter(router);
-
 //
-
 app.set("views", __dirname + "/views");
 
 app.set("view engine", "ejs");

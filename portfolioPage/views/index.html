@@ -46,7 +46,7 @@
 
         width:1px;
         height:1px;
-        background-color:yellow;
+        
 
     }
 
@@ -60,7 +60,7 @@
 
     #contentsContainer{
 
-        background-color:brown;
+        
 
     }
 
@@ -78,11 +78,7 @@
         width:100%; height:700;
     }
 
-    #albumContainer{
-        padding-top:0px;
-        margin-top:0xp;
-    }
-
+    
     #mySelfie{
 
         border-radius:10%;
@@ -95,6 +91,17 @@
         border-radius:5%;
         border:10px solid rgba(0 , 80 , 80,var(--element-bgMax));
 
+    }
+
+    #eachRowDiv{
+
+        border:5px solid rgba(128,203,250,0.2);
+        border-radius:10%;
+        height:1450px;
+
+    }
+    #cols{
+        border-radius:1%;
     }
 
 </style>
@@ -126,9 +133,9 @@
             <div id="albumContainer" class="album">
                 <div id="contentsContainer" class="container">
 
-                    <div id="eachRowDiv" class="row row-cols-1 row-cols-sm-1 row-cols-md-2 mb-1" >
+                    <div id="eachRowDiv" class="row row-cols-1 row-cols-sm-1 row-cols-md-2 mb-1">
 
-                        <div id="cols" class="text-bg-light">
+                        <div id="cols" >
                             
                             <div id="imgTxtContBox1" class="card shadow-sm mb-5">
 
@@ -150,7 +157,7 @@
                         <!-- cols 끝  -->
 
 
-                        <div id="cols" class="text-bg-light">
+                        <div id="cols" >
                             
                             <div id="imgTxtContBox1" class="card shadow-sm mb-5">
 
@@ -209,7 +216,7 @@
     var WIDTH , HEIGHT ;
     var container , container_bg ;
     var rowArr , rowInnerDiv ;
-    var bg_paintTm = 200;
+    var bg_paintTm = 500;
     /*
     * cnt의 경우엔 bgMin과 bgMax가 0.3~1.0 을 왔다갔다 할때 bgChangeFlag를 cnt번째마다 검사해주기 위해서 만든 변수
     */

@@ -3,10 +3,12 @@ const express = require("express");
 const app = express();
 
 const bodyParser = require("body-parser");
-
+const path = require("path");
 const router = express.Router();
 
 const config = require("./config/config");
+
+app.use(express.static("public"));
 
 app.use(bodyParser.urlencoded({ extended: false }));
 

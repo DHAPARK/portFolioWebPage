@@ -68,7 +68,7 @@
         width:100%; height:530; background-color:blue; margin-bottom:20px;
     }
     .explainBox{
-        width:100%; height:200; background-color:red;
+        width:100%; height:200; border-top:2px solid black;
     }
 
     #imgTxtContBox1{
@@ -108,6 +108,20 @@
         margin-bottom:5%;
     }
 
+    #imgBoxImgSize{
+
+        width:100%;
+        height:100%;
+
+    }
+
+    #workProfile{
+        display:inline-block;
+        margin:5%;
+        
+
+    }
+
 </style>
 
 <body>
@@ -143,9 +157,20 @@
                             
                             <div id="imgTxtContBox1" class="card shadow-sm mb-5">
 
-                                <div class="imgBox"></div>
+                                <div class="imgBox">
 
-                                <div class="explainBox"></div>
+                                    <img id="imgBoxImgSize" src="../img/indexImg.png" />
+
+                                </div>
+                                <!-- imgBox 끝 -->
+                                <div class="explainBox">
+                                    <div id="workProfile">
+                                        <h4>블록체인 어플</h4>
+                                        <h4>팀인원 : 4인</h4>
+                                        <h4>기간 : 2022 / 01 / 01 ~ 2022 / 06 / 14</h4>
+                                        <h4>졸업작품 과목 ( 교내 ) </h4>
+                                    </div>
+                                </div>
 
                             </div>
                             <!--imgTxtContBox1 끝-->
@@ -220,7 +245,7 @@
     var WIDTH , HEIGHT ;
     var container , container_bg ;
     var rowArr , rowInnerDiv ;
-    var bg_paintTm = 500;
+    var bg_paintTm = 200;
     /*
     * cnt의 경우엔 bgMin과 bgMax가 0.3~1.0 을 왔다갔다 할때 bgChangeFlag를 cnt번째마다 검사해주기 위해서 만든 변수
     */

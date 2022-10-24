@@ -140,16 +140,38 @@
         display:inline-block;
         margin:5%;
         
-
     }
 
     a{
         margin:0px;
         padding:0px;
     }
+    a:link {
+        color: black ;
+        text-decoration : none;
+    }
+    a:visited {
+        color: black;
+        text-decoration: none;
+    }
+    a:hover {
+        color: black; text-decoration: underline ;
+    }
+
 
     .intro{
-        margin-bottom:0px;
+        margin:0px;
+        padding:0px;
+    }
+    p{
+        font-size:13px;
+    }
+    a{
+        font-size:13px;
+    }
+    #selfieSize{
+        width:100%;
+        height:100%;
     }
 
 </style>
@@ -166,16 +188,16 @@
 
                     <div id="mySelfie" class="col-md-3 text-bg-light p-3 me-5" style="height:220;"> 
                     
-                        <img src=""/>
+                        <img  id="selfieSize" src="/img/selfie.png"/>
                         
                     </div>
                     <!--mySelfie 끝-->
                     <div id="mySelfIntroduce" class="col-md-8 text-bg-light p-3 " style="height:220;"> 
 
-                        <h3 class="intro">학력</h3><p>한성대학교 컴퓨터공학과 2022 / 06 졸업예정</p>
-                        <h3 class="intro">블로그</h3><a href="https://blog.naver.com/zerosugarcoke">zerosugarcoke의 블로그</a>
-                        <h3 class="intro">깃허브</h3><a href="https://github.com/DHAPARK">DHAPARK's GitHub</a>
-
+                        <h5 class="intro">학력</h5><p class="intro">한성대학교 컴퓨터공학과 2022 / 06 졸업예정</p>
+                        <h5 class="intro">블로그</h5><a class="intro" href="https://blog.naver.com/zerosugarcoke">zerosugarcoke의 블로그</a>
+                        <h5 class="intro">깃허브</h5><a class="intro" href="https://github.com/DHAPARK">DHAPARK's GitHub</a>
+                        <h5 class="intro">관련 교육</h5><a class="intro" href="http://www.koreaitacademy.com/?utm_source=naver&utm_medium=cpc&utm_campaign=official&utm_content=sa&utm_term=강남코리아아이티&n_media=27758&n_query=강남코리아아이티&n_rank=1&n_ad_group=grp-a001-01-000000018276922&n_ad=nad-a001-01-000000187563118&n_keyword_id=nkw-a001-01-000003348582846&n_keyword=강남코리아아이티&n_campaign_type=1&n_ad_group_type=1&NaPm=ct%3Dl9m1l3mg%7Cci%3D0Au0002dR5jxSkwxeLnK%7Ctr%3Dsa%7Chk%3Dd0c53b9a2fd57f0ea19bc4a448133b6493d00aae">역삼 KoreaIT학원 웹개발,임베디드개발 국비교육과정 수료</a>
                     </div>
                     <!--mySelfIntroduce 끝-->
                 </div>

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+    
     <style>
         #container{
 
@@ -73,6 +73,18 @@
             width:100%;
             height:100%;
         }
+
+        #explain{
+
+            width:1000px;
+            height:300px;
+            border:1px solid black;
+            padding:2%;
+            overflow:auto;
+
+        }
+
+
     </style>
 
 </head>
@@ -83,7 +95,7 @@
         <div id="leftCont">
             
             <iframe id="capstoneVideoArea" src="https://www.youtube.com/embed/vOvEPGwoPG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            
+
         </div>
         <!-- leftCont 끝 -->
         
@@ -209,6 +221,48 @@
     </div>
     <!--container 끝-->
     
+    <div id="explain">
+        <h5>후기</h5>
+        <p>React Native Expo버전으로 어플작업파트를 도맡아 작업하였습니다. 또한 Node.js를 이용해 작업초기 임시 고객서버를 만들고 어플과 서버 연동을 하여 초기 작업세팅을 맡아서 했습니다.
+            당시 1월달 BlockChain파트를 맡은 팀원이 오랜시간 공부할 시간이 필요했고 , 한명은 Firebase를 공부하기 시작하고 , 나머지 한명은 Design을 시작했습니다. 저의 팀원들이 각자 공부할일 ,
+             또는 할일들을 마무리하기 전에 저는 React Native Expo에 대한 공부를 "언제나 어떠한 작업을 바로 할수있을정도"로 공부하여야 했고 , 명절에도 밤중에 스터디룸에 가서 공부를하고 돌아와 아침을
+             맞으면서 팀원들과 함께하는 프로젝트에 제 몫을 해나갔습니다. 교내에서 배운것들로 프로젝트를 하고싶은 팀원을 한명도 없었으며 , 모두들 졸업작품은 교내에서 하는 거의 마지막 프로젝트로 , 새로운 도전을
+             해내는것에 목표를 두었습니다. 프로젝트 시작후 1주일이 지났을때에 제가 프로토타입 어플 , 임시 서버를 가지고 연동을 해서 시연한후에 , 프로젝트 시작 2주일 후 디자인이 완료되었고 , 디자인을 받아
+             모든 어플의 프론트단을 구성하는데에 1달 반이 걸렸습니다. React Native Expo가 사용할수있는 모듈들이 상당히 제한되어있고 , 구글링을 해보면 React Native Cli에 관한 모듈들이 10에 8할을 차지
+             하고있었던 이유로 , 작업속도가 더뎠지만 , 끊임없이 시도하여 어플을 완성하였으며 , Firebase파트 팀원의 권유로 DB파트를 같이 공부하기 시작하였습니다. (DB와 연동해야하는것은 서버뿐만이 아니라 간단한
+             쿼리같은경우 어플쪽에서 직접 Firebase에 접근하여 시도할수도 있기 때문이었습니다.) 또한 2달반째 되던때 , BlockChain파트를 공부하던 팀원이
+             제가 만들어둔 Nodejs 임시서버에 Web3.js와 Solidity Ganache Truffle등을 이용하여 , Ganache서버를 배포하고 , Web3.js 모듈을 이용하여 Node.js서버와 연동하기 시작했습니다. 
+             나머지 시간을 서버 완성 , 서버와 어플의 연결에 시간을 쏟았으며 , 결론적으로 42개팀중 7개팀 안에 들어가며 장려상을 수상하였습니다.
+        </p>
+        <h5>작업중 이슈</h5>
+        <p>
+            <a href="https://blog.naver.com/zerosugarcoke/222643306226">개발블로그</a>
+            가장 기억에 남는 오류는 Node.js와 어플단을 연결하는데에서 발생했던 오류였는데 ,
+            아마 처음에 RN에 대하여 아는것도 없고 , Node.js에 대해 잘 알지도 못할때에 한 세네시간 삽질을 했던것이라 기억에 남았습니다. 
+            구글링을 해볼때에도 나오는 자료가 얼마없었고 , 딱 하나 의심가는 한 개발자의 블로그 포스팅이 있어 해결하게 되었습니다. 
+            <a href="https://blog.naver.com/zerosugarcoke/222667436132">관련 기록</a>
+            "adb -s emulator-5554 reverse tcp:3000 tcp:3000" 코드 한줄을 터미널에 입력해주는것으로
+            해결을 봤는데 , IOS쪽에선 서버와 통신이 잘 이루어지는데 Android쪽에선 서버와 통신이 전혀 이루어지지않는
+            이슈가 발생하였습니다. 심지어 이 경우 Android를 잘 사용하지 않는 서양권의 자료내에선 찾기가 어려웠고 , 
+            중국 개발블로그도 뒤져보았던 기억이 납니다.
+            <a href="https://developer.aliyun.com/article/663394">참조 블로그</a>
+            지금은 찾을수 없지만 당시 결정적으로 해결에 도움을 주었던 블로그가 있었는데 , 결론적으로 그 블로그를 읽고 AWS서버의 인바운드
+            아웃바운드 보안정책을 정해주는것과 비슷한 원리로 이해하여 도움이 되었던 기억이 있습니다.
+
+            또한 React 시리즈 문법중에 useState/Effect등 어떠한 변수의 상태변화를 감시하는 기능들이 존재하는것에 편리하다 생각했었는데 ,
+            React 시리즈에서 어떠한 컴포넌트의 형태가 변화하려면 ( 화면이 Reload 되려면 ) 화면내에 존재하는 어떠한 변수의 인스턴스가 변동이
+            있어야함을 알게된이후로 , 이 문법이 잘못사용하면 상당히 무서운 문법이라는것을 알게되었습니다. 언제 알게되었느냐 한다면 , 
+            Firebase를 사용하는데에 요청이 하루 5만번까지가 무료로 제한이 걸려있습니다. 저희팀이 작업을하기위해 모였던 날에
+            RN어플의 코드를 좀 수정하여 command+s 즉 리랜더링을 하였는데 , 리랜더링이 수도없이 돌아 Firebase가 먹통이 된적이 있었습니다.
+            처음엔 DB사용이 안되어 이게 대체 무슨상황인지 검색을 해보다가 Firebase가 의심이 되는 포스팅이 보여 , Firebase Console내에서
+            요청기록을 확인하다가 기록수가 7만번이 넘어간것을 확인하게 되었습니다. 부끄럽게도 처음에는 해결할 생각을 하지않다가
+            두세번이 반복되니 불편함을 느껴 제 카드를 등록하여 작업을 편히 하게 되었습니다. 이후에 Node.js 서버쪽에서도
+            순간적 요청량이 일정 량을 넘어서면 해당 IP를 차단하는 방안을 찾아서 , 이상 트래픽이 과도하게 몰릴때의 대처방안을
+            마련하여 마음놓고 작업을 할수있게 되었습니다.
+        </p>
+    </div>
+    <!-- explain 끝 -->
+
 </body>
 
 </html>

@@ -131,6 +131,18 @@
         height:104%;
 
     }
+
+    #kampImgSize{
+        width:100%;
+        height:100%;
+    }
+
+    #groomTonImgSize{
+        width:100%;
+        height:104%;
+
+    }
+
     #handsomeHackImgSize{
 
         width:100%;
@@ -189,6 +201,8 @@
         font-size:11px;
 
     }
+
+    
 
 </style>
 
@@ -340,6 +354,78 @@
                         </div>
                         <!-- cols 끝  -->
                         
+
+
+
+
+
+                        
+                        <div id="cols" >
+                            
+                            <div id="imgTxtContBox1" class="card shadow-sm mb-5">
+
+                                <div class="imgBox" onclick="goKamp()">
+
+                                    <img id="kampImgSize" src="/img/kamp.png"/>
+
+                                </div>
+
+                                <div class="explainBox">
+                                    <div id="workProfile">
+                                        <p style="font-size:18px; margin:0px; padding:0px;">식품가공 기업의 작업환경 개선 및 생산성 향상을 위한 아이디어를 제시하고 인공지능 알고리즘으로 구현</p>
+                                        <p style="font-size:15px; margin-top:10px; margin-bottom:0px; padding:0px;">팀인원 : 3인</p>
+                                        <p style="font-size:15px; margin:0px; padding:0px;">기간 : 2022 / 09 / 30 ~ 2022 / 12 / 06</p>
+                                        <p style="font-size:15px; margin:0px; padding:0px;">2022년 제 2회 K-인공지능 제조데이터 분석 경진대회</p>
+                                        <p style="font-size:15px; margin:0px; padding:0px;">진행중...</p>
+                                    </div>
+                                <!-- workProfile 끝 -->
+                                </div>
+                                <!-- explainBox 끝 -->
+
+                            </div>
+                            <!--imgTxtContBox1 끝-->
+
+                            <div id="imgTxtContBox2" class="card shadow-sm mb-3">
+
+                                <div class="imgBox" onclick="goGroomTon3()">
+
+                                    <img id="groomTonImgSize" src="/img/groomTon3.png"/>
+
+                                </div>
+
+                                <div class="explainBox">
+                                    <div id="workProfile">
+                                        <h5>클라우드 기술 활용 해커톤</h5>
+                                        <h4>팀인원 : ?인</h4>
+                                        <h4>기간 : 2022 / 11 / 15 ~ 2022 / 11 / 18</h4>
+                                        <h4>제 3기 구름톤</h4>
+                                        <h4>미정</h4>
+                                    </div>
+                                <!-- workProfile 끝 -->
+                                </div>
+                            <!-- explainBox 끝 -->
+                            </div>
+                            <!--imgTxtContBox2 끝-->
+                        </div>
+                        <!-- cols 끝  -->
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                     </div>
                     <!--eachRowDiv class row 끝-->
 
@@ -489,7 +575,12 @@
     function goCapstone(){
         location.href="capstone";
     }
-
+    function goKamp(){
+        location.href="kamp";
+    }
+    function goGroomTon3(){
+        location.href="goGroomTon3";
+    }
 </script>
 
 </html>

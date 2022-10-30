@@ -17,4 +17,11 @@ module.exports = (router) => {
   router.route("/capstone").get((req, res) => {
     res.render("capstone");
   });
+
+  router.route("/kamp").get((req, res) => {
+    res.render("kamp");
+  });
+  router.route("/goGroomTon3").get((req, res) => {
+    res.render("goGroomTon3");
+  });
 };

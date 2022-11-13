@@ -150,6 +150,13 @@
 
     }
 
+    #koreaTrolleringImgSize{
+
+        width:100%;
+        height:104%;
+
+    }
+
     #workProfile{
         display:inline-block;
         margin:5%;
@@ -415,6 +422,37 @@
 
 
 
+                        <div id="cols" >
+                            
+                            <div id="imgTxtContBox1" class="card shadow-sm mb-5">
+
+                                <div class="imgBox" onclick="gokoreaTrolling()">
+
+                                    <img id="koreaTrolleringImgSize" src="/img/koreaTrolling.png"/>
+
+                                </div>
+
+                                <div class="explainBox">
+                                    <div id="workProfile">
+                                        <p style="font-size:20px; margin:0px; padding:0px;">웹상 연령별 댓글데이터 수집 / 분류 / 분석 / 시각화</p>
+                                        <p style="font-size:20px; margin-top:10px; margin-bottom:0px; padding:0px;">팀인원 : 4인</p>
+                                        <p style="font-size:20px; margin:0px; padding:0px;">기간 : 2022 / 10 / 26 ~ 2022 / 11 / 18</p>
+                                        <p style="font-size:20px; margin:0px; padding:0px;">KoreaIT JSP 준수료 팀프로젝트</p>
+                                        <!--<p style="font-size:15px; margin:0px; padding:0px;"></p>-->
+                                    </div>
+                                <!-- workProfile 끝 -->
+                                </div>
+                                <!-- explainBox 끝 -->
+
+                            </div>
+                            <!--imgTxtContBox1 끝-->
+
+
+                            <!--나중에 imgTxtContBox2 만들어야함-->
+                            
+                        </div>
+                        <!-- cols 끝  -->
+
 
 
 
@@ -428,13 +466,15 @@
 
                     </div>
                     <!--eachRowDiv class row 끝-->
-
+                    
+                    
+                    <!--
                     <div class="row" >
 
 
                         
                     </div>
-                    <!--class row 끝-->
+                    class row 끝-->
 
                     
                 </div>
@@ -580,6 +620,9 @@
     }
     function goGroomTon3(){
         location.href="goGroomTon3";
+    }
+    function gokoreaTrolling(){
+        location.href="goKoreaTrolling";
     }
 </script>
 

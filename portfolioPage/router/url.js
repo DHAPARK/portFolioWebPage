@@ -19,10 +19,10 @@ module.exports = (router) => {
   });
 
   router.route("/kamp").get((req, res) => {
-    res.render("kamp");
+    res.redirect("https://blog.naver.com/zerosugarcoke/222914901390");
   });
   router.route("/goGroomTon3").get((req, res) => {
-    res.render("goGroomTon3");
+    res.redirect("https://www.notion.so/8fc237d71f874327a32899cb326025b5");
   });
   router.route("/goKoreaTrolling").get((req, res) => {
     res.render("KoreaTrolling");

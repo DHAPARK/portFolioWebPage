@@ -157,6 +157,13 @@
 
     }
 
+    #letterOfHeartImgSize{
+        border:10px solid black;
+        width:100%;
+        height:104%;
+
+    }
+
     #workProfile{
         display:inline-block;
         margin:5%;
@@ -315,7 +322,7 @@
 
                         <div id="cols" >
                             
-                            <div id="imgTxtContBox1" class="card shadow-sm mb-5">
+                            <div id="imgTxtContBox1" class="card shadow-sm mb-5" style="border: 2px solid black;">
 
                                 <div class="imgBox" onclick="goEveStation()">
 
@@ -424,7 +431,7 @@
 
                         <div id="cols" >
                             
-                            <div id="imgTxtContBox1" class="card shadow-sm mb-5">
+                            <div id="imgTxtContBox1" class="card shadow-sm mb-5" style="border:2px solid black;">
 
                                 <div class="imgBox" onclick="gokoreaTrolling()">
 
@@ -450,6 +457,30 @@
 
                             <!--나중에 imgTxtContBox2 만들어야함-->
                             
+                            <div id="imgTxtContBox2" class="card shadow-sm mb-5" style="border:2px solid black;">
+
+                                <div class="imgBox" onclick="goLetterOfHeart()">
+
+                                    <img id="letterOfHeartImgSize" src="/img/letterOfHeart.png"/>
+
+                                </div>
+
+                                <div class="explainBox">
+                                    <div id="workProfile">
+                                        <p style="font-size:20px; margin:0px; padding:0px;">크리스마스 지인에게 편지를 달아주는 프로젝트</p>
+                                        <p style="font-size:20px; margin-top:10px; margin-bottom:0px; padding:0px;">팀인원 : 6인</p>
+                                        <p style="font-size:20px; margin:0px; padding:0px;">기간 : 2022 / 12 / 02 ~ 2022 / 12 / 28</p>
+                                        <p style="font-size:20px; margin:0px; padding:0px;">KoreaIT Spring STS 수료 팀프로젝트</p>
+                                        <!--<p style="font-size:15px; margin:0px; padding:0px;"></p>-->
+                                    </div>
+                                <!-- workProfile 끝 -->
+                                </div>
+                                <!-- explainBox 끝 -->
+
+                            </div>
+                            <!--imgTxtContBox2 끝-->
+
+
                         </div>
                         <!-- cols 끝  -->
 
@@ -626,6 +657,9 @@
     }
     function gokoreaTrolling(){
         location.href="goKoreaTrolling";
+    }
+    function goLetterOfHeart(){
+        location.href="goLetterOfHeart";
     }
 </script>
 

@@ -27,4 +27,7 @@ module.exports = (router) => {
   router.route("/goKoreaTrolling").get((req, res) => {
     res.render("KoreaTrolling");
   });
+  router.route("/goLetterOfHeart").get((req, res) => {
+    res.render("LetterOfHeart");
+  });
 };

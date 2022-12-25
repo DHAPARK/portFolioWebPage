@@ -1,0 +1,579 @@
+
+> portfoliopage@1.0.0 start /home/ubuntu/portFolioWebPage/portfolioPage
+> node app.js
+
+80 번 포트로 서버 대기중...
+Killed
+npm ERR! code ELIFECYCLE
+npm ERR! errno 137
+npm ERR! portfoliopage@1.0.0 start: `node app.js`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the portfoliopage@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2022-10-23T08_39_48_302Z-debug.log
+
+> portfoliopage@1.0.0 start /home/ubuntu/portFolioWebPage/portfolioPage
+> node app.js
+
+80 번 포트로 서버 대기중...
+Killed
+npm ERR! code ELIFECYCLE
+npm ERR! errno 137
+npm ERR! portfoliopage@1.0.0 start: `node app.js`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the portfoliopage@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2022-10-23T08_55_46_104Z-debug.log
+
+> portfoliopage@1.0.0 start /home/ubuntu/portFolioWebPage/portfolioPage
+> node app.js
+
+80 번 포트로 서버 대기중...
+
+> portfoliopage@1.0.0 start /home/ubuntu/portFolioWebPage/portfolioPage
+> node app.js
+
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::80
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.listen (/home/ubuntu/portFolioWebPage/portfolioPage/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/ubuntu/portFolioWebPage/portfolioPage/app.js:26:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:75:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1358:8)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 80
+}
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! portfoliopage@1.0.0 start: `node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the portfoliopage@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2022-10-24T00_48_58_804Z-debug.log
+
+> portfoliopage@1.0.0 start /home/ubuntu/portFolioWebPage/portfolioPage
+> node app.js
+
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::80
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.listen (/home/ubuntu/portFolioWebPage/portfolioPage/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/ubuntu/portFolioWebPage/portfolioPage/app.js:26:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:75:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1358:8)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 80
+}
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! portfoliopage@1.0.0 start: `node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the portfoliopage@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2022-10-24T00_49_43_815Z-debug.log
+Error: Failed to lookup view "index.ejs" in views directory "/home/ubuntu/portFolioWebPage/portfolioPage/views"
+    at Function.render (/home/ubuntu/portFolioWebPage/portfolioPage/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/ubuntu/portFolioWebPage/portfolioPage/node_modules/express/lib/response.js:1039:7)
+    at /home/ubuntu/portFolioWebPage/portfolioPage/router/url.js:3:9
+    at Layer.handle [as handle_request] (/home/ubuntu/portFolioWebPage/portfolioPage/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ubuntu/portFolioWebPage/portfolioPage/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/ubuntu/portFolioWebPage/portfolioPage/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/ubuntu/portFolioWebPage/portfolioPage/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ubuntu/portFolioWebPage/portfolioPage/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/ubuntu/portFolioWebPage/portfolioPage/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/ubuntu/portFolioWebPage/portfolioPage/node_modules/express/lib/router/index.js:280:10)
+
+> portfoliopage@1.0.0 start /home/ubuntu/portFolioWebPage/portfolioPage
+> node app.js
+
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::80
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.listen (/home/ubuntu/portFolioWebPage/portfolioPage/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/ubuntu/portFolioWebPage/portfolioPage/app.js:26:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:75:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1358:8)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 80
+}
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! portfoliopage@1.0.0 start: `node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the portfoliopage@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2022-10-24T00_50_24_743Z-debug.log
+
+> portfoliopage@1.0.0 start /home/ubuntu/portFolioWebPage/portfolioPage
+> node app.js
+
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::80
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.listen (/home/ubuntu/portFolioWebPage/portfolioPage/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/ubuntu/portFolioWebPage/portfolioPage/app.js:26:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:75:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1358:8)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 80
+}
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! portfoliopage@1.0.0 start: `node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the portfoliopage@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2022-10-25T04_26_46_163Z-debug.log
+Killed
+npm ERR! code ELIFECYCLE
+npm ERR! errno 137
+npm ERR! portfoliopage@1.0.0 start: `node app.js`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the portfoliopage@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2022-10-25T06_38_14_663Z-debug.log
+
+> portfoliopage@1.0.0 start /home/ubuntu/portFolioWebPage/portfolioPage
+> node app.js
+
+80 번 포트로 서버 대기중...
+Error: Failed to lookup view "index.ejs" in views directory "/home/ubuntu/portFolioWebPage/portfolioPage/views"
+    at Function.render (/home/ubuntu/portFolioWebPage/portfolioPage/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/ubuntu/portFolioWebPage/portfolioPage/node_modules/express/lib/response.js:1039:7)
+    at /home/ubuntu/portFolioWebPage/portfolioPage/router/url.js:3:9
+    at Layer.handle [as handle_request] (/home/ubuntu/portFolioWebPage/portfolioPage/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ubuntu/portFolioWebPage/portfolioPage/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/ubuntu/portFolioWebPage/portfolioPage/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/ubuntu/portFolioWebPage/portfolioPage/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ubuntu/portFolioWebPage/portfolioPage/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/ubuntu/portFolioWebPage/portfolioPage/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/ubuntu/portFolioWebPage/portfolioPage/node_modules/express/lib/router/index.js:280:10)
+Killed
+npm ERR! code ELIFECYCLE
+npm ERR! errno 137
+npm ERR! portfoliopage@1.0.0 start: `node app.js`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the portfoliopage@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2022-10-25T06_39_00_490Z-debug.log
+
+> portfoliopage@1.0.0 start /home/ubuntu/portFolioWebPage/portfolioPage
+> node app.js
+
+80 번 포트로 서버 대기중...
+Killed
+npm ERR! code ELIFECYCLE
+npm ERR! errno 137
+npm ERR! portfoliopage@1.0.0 start: `node app.js`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the portfoliopage@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2022-10-25T06_45_52_040Z-debug.log
+
+> portfoliopage@1.0.0 start /home/ubuntu/portFolioWebPage/portfolioPage
+> node app.js
+
+80 번 포트로 서버 대기중...
+Killed
+npm ERR! code ELIFECYCLE
+npm ERR! errno 137
+npm ERR! portfoliopage@1.0.0 start: `node app.js`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the portfoliopage@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2022-10-30T11_52_47_923Z-debug.log
+
+> portfoliopage@1.0.0 start /home/ubuntu/portFolioWebPage/portfolioPage
+> node app.js
+
+80 번 포트로 서버 대기중...
+Killed
+npm ERR! code ELIFECYCLE
+npm ERR! errno 137
+npm ERR! portfoliopage@1.0.0 start: `node app.js`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the portfoliopage@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2022-11-13T11_38_24_441Z-debug.log
+80 번 포트로 서버 대기중...
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::80
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.listen (/home/ubuntu/portFolioWebPage/portfolioPage/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/ubuntu/portFolioWebPage/portfolioPage/app.js:26:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:75:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1358:8)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 80
+}
+80 번 포트로 서버 대기중...
+
+> portfoliopage@1.0.0 start /home/ubuntu/portFolioWebPage/portfolioPage
+> node app.js
+
+80 번 포트로 서버 대기중...
+Killed
+npm ERR! code ELIFECYCLE
+npm ERR! errno 137
+npm ERR! portfoliopage@1.0.0 start: `node app.js`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the portfoliopage@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2022-11-19T17_19_31_141Z-debug.log
+
+> portfoliopage@1.0.0 start /home/ubuntu/portFolioWebPage/portfolioPage
+> node app.js
+
+80 번 포트로 서버 대기중...
+Killed
+npm ERR! code ELIFECYCLE
+npm ERR! errno 137
+npm ERR! portfoliopage@1.0.0 start: `node app.js`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the portfoliopage@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2022-11-19T17_41_20_664Z-debug.log
+
+> portfoliopage@1.0.0 start /home/ubuntu/portFolioWebPage/portfolioPage
+> node app.js
+
+80 번 포트로 서버 대기중...
+Killed
+npm ERR! code ELIFECYCLE
+npm ERR! errno 137
+npm ERR! portfoliopage@1.0.0 start: `node app.js`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the portfoliopage@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2022-11-21T09_30_13_010Z-debug.log
+
+> portfoliopage@1.0.0 start /home/ubuntu/portFolioWebPage/portfolioPage
+> node app.js
+
+80 번 포트로 서버 대기중...
+Killed
+npm ERR! code ELIFECYCLE
+npm ERR! errno 137
+npm ERR! portfoliopage@1.0.0 start: `node app.js`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the portfoliopage@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2022-11-25T23_33_33_692Z-debug.log
+
+> portfoliopage@1.0.0 start /home/ubuntu/portFolioWebPage/portfolioPage
+> node app.js
+
+80 번 포트로 서버 대기중...
+Killed
+npm ERR! code ELIFECYCLE
+npm ERR! errno 137
+npm ERR! portfoliopage@1.0.0 start: `node app.js`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the portfoliopage@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2022-11-27T20_09_11_471Z-debug.log
+
+> portfoliopage@1.0.0 start /home/ubuntu/portFolioWebPage/portfolioPage
+> node app.js
+
+80 번 포트로 서버 대기중...
+Killed
+npm ERR! code ELIFECYCLE
+npm ERR! errno 137
+npm ERR! portfoliopage@1.0.0 start: `node app.js`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the portfoliopage@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2022-11-30T18_50_40_897Z-debug.log
+
+> portfoliopage@1.0.0 start /home/ubuntu/portFolioWebPage/portfolioPage
+> node app.js
+
+443 번 포트로 서버 대기중...
+Killed
+npm ERR! code ELIFECYCLE
+npm ERR! errno 137
+npm ERR! portfoliopage@1.0.0 start: `node app.js`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the portfoliopage@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2022-12-04T02_12_13_315Z-debug.log
+
+> portfoliopage@1.0.0 start /home/ubuntu/portFolioWebPage/portfolioPage
+> node app.js
+
+443 번 포트로 서버 대기중...
+Killed
+npm ERR! code ELIFECYCLE
+npm ERR! errno 137
+npm ERR! portfoliopage@1.0.0 start: `node app.js`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the portfoliopage@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2022-12-04T02_17_14_239Z-debug.log
+
+> portfoliopage@1.0.0 start /home/ubuntu/portFolioWebPage/portfolioPage
+> node app.js
+
+443 번 포트로 서버 대기중...
+Killed
+npm ERR! code ELIFECYCLE
+npm ERR! errno 137
+npm ERR! portfoliopage@1.0.0 start: `node app.js`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the portfoliopage@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2022-12-08T20_45_55_834Z-debug.log
+
+> portfoliopage@1.0.0 start /home/ubuntu/portFolioWebPage/portfolioPage
+> node app.js
+
+443 번 포트로 서버 대기중...
+Killed
+npm ERR! code ELIFECYCLE
+npm ERR! errno 137
+npm ERR! portfoliopage@1.0.0 start: `node app.js`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the portfoliopage@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2022-12-12T04_16_04_652Z-debug.log
+
+> portfoliopage@1.0.0 start /home/ubuntu/portFolioWebPage/portfolioPage
+> node app.js
+
+443 번 포트로 서버 대기중...
+
+> portfoliopage@1.0.0 start /home/ubuntu/portFolioWebPage/portfolioPage
+> node app.js
+
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::443
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.listen (/home/ubuntu/portFolioWebPage/portfolioPage/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/ubuntu/portFolioWebPage/portfolioPage/app.js:26:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:75:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1358:8)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 443
+}
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! portfoliopage@1.0.0 start: `node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the portfoliopage@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2022-12-12T04_17_38_153Z-debug.log
+Killed
+npm ERR! code ELIFECYCLE
+npm ERR! errno 137
+npm ERR! portfoliopage@1.0.0 start: `node app.js`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the portfoliopage@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2022-12-17T13_05_46_466Z-debug.log
+
+> portfoliopage@1.0.0 start /home/ubuntu/portFolioWebPage/portfolioPage
+> node app.js
+
+443 번 포트로 서버 대기중...
+Killed
+npm ERR! code ELIFECYCLE
+npm ERR! errno 137
+npm ERR! portfoliopage@1.0.0 start: `node app.js`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the portfoliopage@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2022-12-22T02_08_21_786Z-debug.log
+
+> portfoliopage@1.0.0 start /home/ubuntu/portFolioWebPage/portfolioPage
+> node app.js
+
+443 번 포트로 서버 대기중...
+Killed
+npm ERR! code ELIFECYCLE
+npm ERR! errno 137
+npm ERR! portfoliopage@1.0.0 start: `node app.js`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the portfoliopage@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2022-12-22T02_32_19_052Z-debug.log
+
+> portfoliopage@1.0.0 start /home/ubuntu/portFolioWebPage/portfolioPage
+> node app.js
+
+443 번 포트로 서버 대기중...
+Killed
+npm ERR! code ELIFECYCLE
+npm ERR! errno 137
+npm ERR! portfoliopage@1.0.0 start: `node app.js`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the portfoliopage@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2022-12-22T03_01_26_688Z-debug.log
+
+> portfoliopage@1.0.0 start /home/ubuntu/portFolioWebPage/portfolioPage
+> node app.js
+
+443 번 포트로 서버 대기중...
